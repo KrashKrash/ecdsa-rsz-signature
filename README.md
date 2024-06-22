@@ -4,4 +4,5 @@ pip install import os, hashlib, ecdsa, pycryptodome, base58
 #
 
 run python3/python generate.py
+#
 Cheers!
