@@ -11,7 +11,7 @@ private_key = SigningKey.generate(curve=SECP256k1)
 # Generate a public key
 public_key = private_key.get_verifying_key()
 
-# Public key in hex format (uncompressed and compressed)
+# Public key in hex format (compressed)
 public_key_uncompressed = b'\x04' + public_key.to_string()
 public_key_compressed = b'\x02' + public_key.to_string()[:32] if public_key.to_string()[-1] % 2 == 0 else b'\x03' + public_key.to_string()[:32]
 
