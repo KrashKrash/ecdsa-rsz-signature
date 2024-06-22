@@ -1,4 +1,4 @@
-Written to provide users with rsz samples for ECDSA SECP256k1 Signatures research purposes.
+Written to provide users with rsz samples of ECDSA SECP256k1 Signatures for research purposes.
 #
 pip install import os, hashlib, ecdsa, pycryptodome, base58
 #
